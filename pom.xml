@@ -161,20 +161,7 @@
       </plugins>
     </pluginManagement>
   </build>
-       
-   <distributionManagement>
-    <repository>
-      <id>deployment</id>
-      <name>sample-release</name>
-      <url>http://10.150.230.36:8081/nexus/repository/sample-release/</url> 
-    </repository>
-    <snapshotRepository>
-      <id>deployment</id>
-      <name>sample-snapshot</name>
-      <url>http://10.150.230.36:8081/nexus/repository/sample_snapshot/</url>
-    </snapshotRepository>
-  </distributionManagement>
-
+ 
   <dependencyManagement>
     <dependencies>
       <dependency>
